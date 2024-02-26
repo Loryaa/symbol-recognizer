@@ -25,8 +25,8 @@ def app():
         of the image (e.g., digit recognition, traffic sign classification).
         Potential Applications:"""
     st.write(text)
-    st.write('Random pixel art recognition: Recognizing random pixel arts from hearts, skulls, apple, and balls')
-)
+    st.write("""Simple image classification: Classifying simple images into categories 
+             like hearts, skulls, apples, balls, and etc.""")
 
     # display choice of classifier
     clf = BernoulliNB() 
